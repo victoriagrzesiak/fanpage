@@ -1,0 +1,532 @@
+
+
+h1 {
+	font-family: 'Roboto Slab', serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 2.5 }
+
+
+
+body {
+	font-family: 'Roboto Slab', serif;;
+	font-size: 40px;
+	background-color: black
+	
+}
+
+
+.container { position:relative;
+flex-direction: column;
+left:-25px;
+top:-15px; }
+
+.tj_video{
+  left:0px;
+}
+
+
+.overlay1 {
+  position: absolute;
+  width: 472px;
+  height: 41px;
+  left: 808px;
+  top: 44px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  color:black;
+}
+
+.comment0{
+  color:white;
+}
+
+/* orange rectangle */
+
+.org_rec{
+position: absolute;
+width: 1300px;
+height: 519px;
+left: -10px;
+top: 800px;
+
+background:rgb(255, 132, 0);
+}
+
+/* cart button */
+.button{
+  position: fixed;
+  width: 172px;
+  height: 85px;
+  left: 1020px;
+  top: 630px;
+
+  background: #FAFF00;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 24px;
+
+  text-align: center;
+  font-family: 'Roboto Slab', serif;;
+  color: black;
+  font-size: 40px;
+  padding:8px;
+  z-index: 100}
+
+
+.yellow_rec{
+  position: absolute;
+  width: 1106px;
+  height: 250px;
+  left: 88px;
+  top: 900px;
+
+  background: #FAFF00;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 60px;
+  flex-direction: column;
+  z-index: 10 }
+
+h2 {
+  font-family: 'Source Code Pro', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2.5 
+  color: white;
+  overflow: hidden;}
+
+.overlay2{
+  position: absolute;
+  width: 900px;
+  height: 230px;
+  left: 280px;
+  z-index: 10;
+  top: 930px;
+  display:flex;
+  color: black;
+  flex-direction:column;}
+
+
+.overlay2_time{
+  position: absolute;
+  width: 100px;
+  height: 230px;
+  left: 148px;
+  z-index: 10;
+  color: red;
+  top: 930px;
+  display:flex;
+  flex-direction:column;}
+
+@keyframes typing {
+  0% { width: 0%; visibility: visible; }
+  1% {border-right: 0px solid white;}
+  99% {border-right: 0px solid white;}
+  0% {border-right: 0px solid white;}
+  100% {border-right: 0px solid white;}
+  100% { width: 100%; visibility: visible;}}
+
+.comment1{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 4s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; }
+
+.comment1_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 4s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; }
+
+.comment2{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 4s linear 7s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; }
+
+
+.comment2_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 7s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;}
+
+.comment3{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 6s linear 17s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+}
+
+
+
+.comment3_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 17s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;}
+
+
+  .comment4{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 20s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+}
+
+
+.comment4_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 20s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;}
+
+
+
+/* NEW OVERLAY */
+
+   .overlay3{
+  position: absolute;
+  width: 900px;
+  height: 230px;
+  left: 280px;
+  z-index: 10;
+  top: 930px;
+  display:flex;
+  color: black;
+  flex-direction:column;}
+
+.overlay3_time{
+  position: absolute;
+  width: 100px;
+  height: 230px;
+  left: 148px;
+  z-index: 10;
+  top: 930px;
+  display:flex;
+  flex-direction:column;
+  color: red;}
+
+
+.comment5{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 35s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;
+}
+
+
+.comment5_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 35s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+
+.comment6{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 50s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+
+
+.comment6_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 50s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+.comment7{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 55s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment7_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 55s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+
+.comment8{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 66s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment8_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 66s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+
+
+/* NEW OVERLAY */
+
+   .overlay4{
+  position: absolute;
+  width: 900px;
+  height: 230px;
+  left: 280px;
+  z-index: 10;
+  top: 930px;
+  display:flex;
+  color: black;
+  flex-direction:column;}
+
+.overlay4_time{
+  position: absolute;
+  width: 100px;
+  height: 230px;
+  left: 148px;
+  z-index: 10;
+  top: 930px;
+  display:flex;
+  flex-direction:column;
+  color: red;}
+
+
+.comment9{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 75s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment9_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 75s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+  .comment10{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 80s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment10_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 80s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+
+.comment11{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 86s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment11_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 86s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+.comment12{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 100s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment12_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 100s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+
+
+/* NEW OVERLAY */
+
+   .overlay5{
+  position: absolute;
+  width: 900px;
+  height: 230px;
+  left: 280px;
+  z-index: 10;
+  top: 930px;
+  display:flex;
+  color: black;
+  flex-direction:column;}
+
+.overlay5_time{
+  position: absolute;
+  width: 100px;
+  height: 230px;
+  left: 148px;
+  z-index: 10;
+  top: 930px;
+  display:flex;
+  flex-direction:column;
+  color: red;}
+
+
+.comment13{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 110s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment13_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 110s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+  .comment14{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 117s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment14_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 117s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+.comment15{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 125s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment15_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 125s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+.comment16{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 3s linear 135s;
+  white-space: nowrap;
+  animation-fill-mode: forwards; 
+  background: #FAFF00;}
+
+.comment16_time{
+  visibility: hidden;
+  overflow: hidden;
+  animation: typing 1s linear 135s;
+  white-space: nowrap;
+  animation-fill-mode: forwards;
+  background: #FAFF00;}
+
+/* all time animations in this container 
+.time_container{
+
+  position: absolute;
+  width: 140px;
+  height: 155px;
+  left: 148px;
+  top: 940px;
+
+  font-family: Roboto Slab;
+  font-size:20px;
+  line-height: 60px;
+  color: black
+  z-index:15;
+  }
+
+/* all text animations in this container 
+
+
+
+.text_container{
+
+  position: absolute;
+  width: 909px;
+  height: 155px;
+  left: 100px;
+  top: 440px;}
+
+.text_container{
+  font-family: Roboto Slab;
+  font-size:20px;
+  line-height: 60px;
+  color: rgb(190,0,0,1);
+  z-index:15}
+ 
+
+ /* COMMENT 1 
+  .comment1_time{
+    overflow: hidden;
+    margin: 0 auto; 
+    white-space: nowrap;
+    letter-spacing: 0.2em;
+    animation: typing 3s linear;
+    align-self: right
+    z-index:10;
+
+  }
+
+*/
+
+
+
+
+
